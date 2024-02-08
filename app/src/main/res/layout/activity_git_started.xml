@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3EEEA"
+    tools:context=".GitStartedActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_the_best_furniture"
+        android:fontFamily="@font/proteststrikeregular"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#7289A6"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/there_are_many_new_outfits"
+        android:fontFamily="@font/robotomono"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:textColor="#7289A6"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/that_make_you_cool"
+        android:fontFamily="@font/robotomono"
+        android:textSize="16sp"
+        android:textColor="#7289A6"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/button"        />
+
+
+</LinearLayout>

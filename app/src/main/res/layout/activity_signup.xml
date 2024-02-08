@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3EEEA"
+    tools:context=".signupActivity">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creat_acconut_now"
+        android:textStyle="bold"
+        android:fontFamily="@font/proteststrikeregular"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="30sp"
+        android:textColor="#7289A6"
+
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fill_your_information"
+        android:fontFamily="@font/robotomono"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="#7289A6"
+        />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_your_name"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/editext"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/usericon"
+        />
+
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_your_location"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/editext"
+        android:inputType="text"
+        android:drawableStart="@drawable/adressicon"
+        />
+
+
+
+    <EditText
+        android:id="@+id/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_birthday_mm_dd_yyyy"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/editext"
+        android:inputType="date"
+        android:drawableStart="@drawable/dateicon"
+
+        />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_your_email"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/editext"
+        android:inputType="text"
+        android:drawableStart="@drawable/emailicon"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_password"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/editext"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/passwordicon"
+        />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_page"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/button"
+        />
+
+
+
+</LinearLayout>

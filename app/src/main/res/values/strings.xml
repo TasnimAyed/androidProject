@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">androidProject</string>
+    <string name="find_the_best_furniture">Find the Best Furniture</string>
+    <string name="there_are_many_new_outfits">There are many new outfits</string>
+    <string name="that_make_you_cool">that make you cool</string>
+    <string name="get_started">Get Started</string>
+    <string name="logo">logo</string>
+    <string name="logo2">logo2</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to continue.</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? SIGN UP</string>
+    <string name="hello_welcome">Hello, Welcome!</string>
+    <string name="enjoy_our_shopping_online">Enjoy our shopping online.</string>
+    <string name="log_in_main">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="or_via_social_media">Or via social media.</string>
+    <string name="creat_acconut_now">Creat Acconut Now!</string>
+    <string name="fill_your_information">Fill your Information...</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_location">Enter your location</string>
+    <string name="enter_birthday_mm_dd_yyyy">Enter Birthday (MM/DD/YYYY)</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up_page">SIGN UP</string>
+</resources>

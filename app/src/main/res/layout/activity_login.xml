@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3EEEA"
+    tools:context=".loginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/logo3"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo2" />
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textStyle="bold"
+        android:fontFamily="@font/proteststrikeregular"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="32sp"
+        android:textColor="#7289A6"
+
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_to_continue"
+        android:fontFamily="@font/robotomono"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#7289A6"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingStart="30dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/robotomono"
+        android:textColor="#7289A6"
+        android:text="@string/e_mail" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/editext"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="38dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/robotomono"
+        android:textColor="#7289A6"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/editext"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="230dp"
+        android:text="@string/forget_password"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotomono"
+        android:textColor="#7289A6"
+        android:clickable="true"
+        android:onClick="onForgetPasswordClick" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/button"
+        />
+    <TextView
+        android:id="@+id/signupLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:fontFamily="@font/robotomono"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#7289A6"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="onSignupClick"
+         />
+
+
+</LinearLayout>
